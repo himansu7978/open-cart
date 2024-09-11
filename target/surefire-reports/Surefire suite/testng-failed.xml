@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TC_001RegistetTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeSetup"/>
+          <include name="login"/>
+          <include name="userRegistration"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testCases.TC_001RegistetTest -->
+      <class name="testCases.TC_002LoginWithValidAndInvalidDataTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeSetup"/>
+          <include name="loginWithValidAndInvalidData"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testCases.TC_002LoginWithValidAndInvalidDataTest -->
+      <class name="testCases.TC003LoginWithValidDataTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeSetup"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="loginWithValidData"/>
+        </methods>
+      </class> <!-- testCases.TC003LoginWithValidDataTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
